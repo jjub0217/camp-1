@@ -1,27 +1,27 @@
 # AI Native Camp - 1기
 
-> 비개발자를 위한 Claude Code 활용법 7일 집중 캠프 (1기 커리큘럼)
+> 7일 후, 당신의 업무 방식은 영구적으로 바뀐다.
 
-## 커리큘럼
+비개발자를 위한 Claude Code 7일 집중 캠프. 2026-02-15 ~ 2026-02-22, Naver D2SF.
 
-| Day | 요일 | 주제 | 핵심 내용 |
-|-----|------|------|----------|
-| 1 | 일 | Onboarding | 자기소개, 조 결성, AI 정신교육, Claude Code 기초, MCP 연결, 환경세팅 |
-| 2 | 월 | Communication | Context Sync — 모든 소스를 모아 데이터를 정리하는 방법 (`/sync`) |
-| 3 | 화 | Requirements | 암묵지 → 명시지, AskUserQuestion 실습 (`/clarify`) |
-| 4 | 수 | Documentation | Wrap, Automation Suggestion, subagents 세팅 (`/wrap`) |
-| 5 | 목 | Information | 최신 AI 정보 습득 채널, 변화 처리 방법론 (Contents Hub MCP) |
-| 6 | 금 | Use Case | ACE 초대, 실전 Use Case 뽀개기 |
-| 7 | 토 | Graduation | 퇴소식, 뒷풀이 |
+## Skills as Curriculum
 
-## 기술 스택
+이 캠프의 커리큘럼은 **Claude Code Skills 그 자체**다.
 
-- **Claude Code**: skill, MCP, agent, subagent
-- **핵심 커맨드**: `/sync`, `/clarify`, `/wrap`
-- **IDE**: Cursor, VSCode, Antigravity
-- **최종 결과물**: 직접 만든 워크플로우 + GUI + 스케줄러 → 동작하는 SW
+슬라이드를 넘기며 듣는 강의가 아니다. `/day1-onboarding`을 실행하면 Claude가 직접 가르치고, 질문하고, 실습을 안내한다. 매일 새로운 Skill이 열리고, 어제 배운 것 위에 오늘을 쌓는다.
 
-## 수강 대상
+```
+.claude/skills/
+├── day1-onboarding/    # 설치 + 7개 핵심 기능
+├── day2-sync/          # 정보 수집 자동화
+├── day3-clarify/       # 요구사항 명확화
+├── day4-wrap/          # 마무리 + subagent
+├── ...
+└── day7-graduation/
+```
 
-Claude Code Max를 결제했거나 결제할 준비가 된 비개발자.
-조직 전체가 AI Native하게 일해야 한다고 생각하고 그 과정을 이끌고 싶은 사람.
+Skill을 만드는 법을 Skill로 배운다. 이것이 이 캠프의 방식이다.
+
+## 캠프가 끝나면
+
+수료가 아니라 시작이다. Claude Code라는 불을 다루는 신인류 커뮤니티의 일원이 된다.
