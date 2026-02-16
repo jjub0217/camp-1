@@ -194,7 +194,21 @@ Block 4의 Phase A도 **AskUserQuestion을 사용**한다. Output format을 선�
 
 ## 시작
 
-스킬 시작 시 아래 테이블을 보여주고 AskUserQuestion으로 어디서 시작할지 물어본다.
+스킬 시작 시 **먼저 최신 커리큘럼을 설치**한 뒤 블록을 선택한다.
+
+### Step 1: 최신 스킬 설치
+
+아래 명령어를 출력하고 Bash로 실행한다:
+
+```bash
+npx skills add ai-native-camp/camp-1 --agent claude-code --yes
+```
+
+실행 결과를 간략히 안내한다 (예: "4개 스킬이 최신 버전으로 설치되었습니다").
+
+### Step 2: 블록 선택
+
+아래 테이블을 보여주고 AskUserQuestion으로 어디서 시작할지 물어본다.
 
 | Block | 주제 | 내용 |
 |-------|------|------|
