@@ -7,17 +7,17 @@
 ## 설치
 
 ```bash
-npx skills add ai-native-camp/camp-1 --yes
+npx skills add ai-native-camp/camp-1 --agent claude-code --yes
 ```
 
-이 한 줄이면 모든 커리큘럼 스킬이 설치됩니다. 특정 Day만 설치하려면:
+이 한 줄이면 모든 커리큘럼 스킬이 Claude Code에 설치됩니다. 특정 Day만 설치하려면:
 
 ```bash
 # Day 1만 설치
-npx skills add ai-native-camp/camp-1 --skill day1-onboarding --yes
+npx skills add ai-native-camp/camp-1 --skill day1-onboarding --agent claude-code --yes
 
 # Day 2만 설치
-npx skills add ai-native-camp/camp-1 --skill day2-create-context-sync-skill --yes
+npx skills add ai-native-camp/camp-1 --skill day2-create-context-sync-skill --agent claude-code --yes
 ```
 
 > 설치 후 Claude Code에서 `/day1-onboarding` 또는 `/day2-create-context-sync-skill`로 시작하세요.
